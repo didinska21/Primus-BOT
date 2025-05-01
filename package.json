@@ -1,0 +1,18 @@
+{
+  "name": "primus-daily-checkin",
+  "version": "1.0.0",
+  "description": "Bot harian untuk check-in di Padolabs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "now": "node index.js --now"
+  },
+  "author": "t.me/didinska",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "figlet": "^1.6.0",
+    "node-schedule": "^2.1.1"
+  }
+}
